@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Cache-control" content="public">
+		<title>Code Formatter</title>
+		<link rel="stylesheet" type="text/css" href="css/page.css?v=1.0">
+	</head>
+	<body>
+		<div id="custom-wrapper">
+				<header>Beautify Code</header>
+				<label for="HTML"><input type="radio" name="language" id="HTML" value="HTML" checked>HTML</label>
+				<label for="CSS"><input type="radio" name="language" id="CSS" value="CSS">CSS</label>
+				<label for="JS"><input type="radio" name="language" id="JS" value="JS">JS</label>
+				<label for="PHP"><input type="radio" name="language" id="PHP" value="PHP">PHP</label>
+				<hr /><br>
+				<div class="codearea">
+					<div id="editor"></div>
+				</div>
+				<textarea placeholder="Code..." id="code"></textarea>
+				<input type="submit" name="smbmit" value="Beautify !" id="submit">
+		</div>
+		<script src="js/ace.js" type="text/javascript" charset="utf-8" defer></script>
+		<script src="js/page.js" type="text/javascript" charset="utf-8" defer></script>
+		<script src="js/vkbeautify.js" type="text/javascript" charset="utf-8" defer></script>
+	</body>
+</html>

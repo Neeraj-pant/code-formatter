@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+
+	"name": "Code Formatter",
+	"description": "Format PHP, JS, HTML and CSS code",
+	"version": "1.0",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png" 
+	},
+	"browser_action": {
+		"default_icon"	: "icon128.png",
+		"default_popup"	: "index.html"
+	},
+	"permissions": [
+		"storage"
+	],
+	"background": {
+	    "scripts"	: ["js/page.js"]
+  	}
+}
