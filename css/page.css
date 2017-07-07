@@ -102,9 +102,12 @@ label input[type=radio] {margin-right: 5px;vertical-align: bottom;}
     position: absolute;
     top: 0;
     left: 0;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 142px;
 }
 .codearea{
   position: relative;
+  width: 500px;
+  height: 160px;
 }
+
